@@ -16,5 +16,5 @@
     <li><strong>Жанры:</strong> {{ num_genres }}</li>
     <li><strong>Жанры с буквой С:</strong> {{ num_num_genres_available }}</li>
   </ul>
-
+<p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
 {% endblock %}
